@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Conversor de Moedas</title>
+        <link href="estilos.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Conversor de moedas</h1>
+
+            <h3>Descubra os valores em dólar, real, euro e bitcoin!</h3>
+            
+            <input id="valor" type="number" placeholder="Digite aqui o valor que deseja converter.">
+            <button onclick="conversaoUSD_BRL()">USD -> BRL</button>
+            <button onclick="conversaoBRL_USD()">BRL -> USD</button>
+            <button onclick="conversaoEUR_BRL()">EUR -> BRL</button>
+            <button onclick="conversaoBRL_EUR()">BRL -> EUR</button>
+            <button onclick="conversaoBTC_BRL()">BTC -> BRL</button>
+            
+            <p id="resultado"></p>
+
+            
+        </div>
+        <script src="scripts.js"></script>
+        <footer>Powered by <b>Analu</b> &copy; <a href="www.analugmrs.com">www.analugmrs.com</a></footer>
+    </body>
+    
+</html>
